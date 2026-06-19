@@ -1,0 +1,23 @@
+# Local Environment Variables (CRITICAL: Contains your Paystack and Clerk secrets)
+.env
+.env.local
+.env.*.local
+
+# Dependency folders (No need to push these, they are massive)
+node_modules/
+.pnpm-store/
+
+# Build outputs
+dist/
+.next/
+out/
+
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# System files
+.DS_Store
+Thumbs.db
